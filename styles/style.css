@@ -1,0 +1,25 @@
+:root {
+  --clr-cyan: hsl(179, 62%, 43%);
+  --clr-bright-yellow: hsl(71, 73%, 54%);
+  --clr-light-gray: hsl(204, 43%, 93%);
+  --clr-grayish-blue: hsl(218, 22%, 67%);
+
+  --fw-regular: 400;
+  --fw-bold: 700;
+}
+
+/* Visually hidden, but available for screen reader */
+
+.sr-only {
+  position: absolute !important;
+  width: 1px !important;
+  height: 1px !important;
+  margin: -1px !important;
+  border: 0 !important;
+  padding: 0 !important;
+  overflow: hidden !important;
+  clip: rect(1px, 1px, 1px, 1px) !important;
+  -webkit-clip-path: inset(50%) !important;
+  clip-path: inset(50%) !important;
+  white-space: nowrap !important;
+}

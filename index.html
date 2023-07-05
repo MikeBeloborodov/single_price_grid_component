@@ -10,17 +10,42 @@
       href="./images/favicon-32x32.png"
     />
     <title>Frontend Mentor | Single Price Grid Component</title>
-    <link rel="stylesheet" href="fonts/fonts.css">
-    <link rel="stylesheet" href="styles/global.css">
-    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="fonts/fonts.css" />
+    <link rel="stylesheet" href="styles/global.css" />
+    <link rel="stylesheet" href="styles/style.css" />
   </head>
   <body>
-    Join our community 30-day, hassle-free money back guarantee Gain access to
-    our full library of tutorials along with expert code reviews. Perfect for
-    any developers who are serious about honing their skills. Monthly
-    Subscription &dollar;29 per month Full access for less than &dollar;1 a day
-    Sign Up Why Us Tutorials by industry experts Peer &amp; expert code review
-    Coding exercises Access to our GitHub repos Community forum Flashcard decks
-    New videos every week
+    <header class="header">
+      <h1 class="sr-only">Single price grid component</h1>
+    </header>
+    <main>
+      <section class="intro">
+        <h2 class="intro__title">Join our community</h2>
+        <p class="intro__accent">30-day, hassle-free money back guarantee</p>
+        <p class="intro__text">
+          Gain access to our full library of tutorials along with expert code
+          reviews. Perfect for any developers who are serious about honing their
+          skills.
+        </p>
+      </section>
+      <section class="price">
+        <h2 class="price__title">Monthly Subscription</h2>
+        <p class="price__monthly">&dollar;29 per month</p>
+        <p class="price__text">Full access for less than &dollar;1 a day</p>
+        <button class="sign_up">Sign Up</button>
+      </section>
+      <section class="why">
+        <h2 class="why__title">Why Us</h2>
+        <ul class="why__list">
+          <li class="why__list-item">Tutorials by industry experts</li>
+          <li class="why__list-item">Peer &amp; expert code review</li>
+          <li class="why__list-item">Coding exercises</li>
+          <li class="why__list-item">Access to our GitHub repos</li>
+          <li class="why__list-item">Community forum</li>
+          <li class="why__list-item">Flashcard decks</li>
+          <li class="why__list-item">New videos every week</li>
+        </ul>
+      </section>
+    </main>
   </body>
 </html>
