@@ -8,6 +8,18 @@
   --fw-bold: 700;
 }
 
+body {
+  background-color: var(--clr-light-gray);
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
 /* Visually hidden, but available for screen reader */
 
 .sr-only {
@@ -22,4 +34,110 @@
   -webkit-clip-path: inset(50%) !important;
   clip-path: inset(50%) !important;
   white-space: nowrap !important;
+}
+
+.price_grid_component {
+  margin: 0 32px;
+  border-radius: 6px;
+  overflow: hidden;
+  background-color: #FFF;
+}
+
+.intro {
+  padding: 28px 25px 32px;
+}
+
+.intro__title {
+  margin-bottom: 24px;
+  color: var(--clr-cyan);
+  font-size: 19.6px;
+}
+
+.intro__accent {
+  margin-bottom: 17px;
+  color: var(--clr-bright-yellow);
+  font-weight: var(--fw-bold);
+  font-size: 14.5px;
+  line-height: 1.48;
+}
+
+.intro__text {
+  color: var(--clr-grayish-blue);
+  font-size: 13.5px;
+  line-height: 1.85;
+}
+
+.price {
+  padding: 25.5px 25px 24px;
+  background-color: var(--clr-cyan);
+}
+
+.price__title {
+  margin-bottom: 19.5px;
+  color: #FFF;
+  font-size: 17.5px;
+}
+
+.price__monthly {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 6px;
+}
+
+.value {
+  color: #FFF;
+  font-weight: var(--fw-bold);
+  font-size: 31px;
+}
+
+.period {
+  color: var(--clr-light-gray);
+}
+
+.price__text {
+  margin-bottom: 30px;
+  color: #FFF;
+  font-size: 15.5px;
+}
+
+.sign_up {
+  width: 100%;
+  margin: 0;
+  border: none;
+  border-radius: 5px;
+  padding: 15px 0;
+  color: #FFF;
+  font-weight: var(--fw-bold);
+  font-size: 16.1px;
+  background: none;
+  background-color: var(--clr-bright-yellow);
+  cursor: pointer;
+}
+
+.sign_up:hover {
+  background-color: hsl(71, 73%, 70%);
+}
+
+.why {
+  padding: 25px 25px 27px;
+  background-color: rgb(74, 190, 189);
+}
+
+.why__title {
+  margin-bottom: 20px;
+  color: #FFF;
+  font-size: 17.5px;
+}
+
+.why__list {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  list-style: none;
+}
+
+.why__list-item {
+  color: var(--clr-light-gray);
+  font-size: 13.6px;
 }
