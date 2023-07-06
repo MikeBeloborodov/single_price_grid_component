@@ -37,6 +37,7 @@ main {
 }
 
 .price_grid_component {
+  max-width: 636px;
   margin: 0 32px;
   border-radius: 6px;
   overflow: hidden;
@@ -140,4 +141,41 @@ main {
 .why__list-item {
   color: var(--clr-light-gray);
   font-size: 13.6px;
+}
+
+@media screen and (min-width: 700px) {
+  .price_grid_component {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: max-content 1fr;
+    padding: 0;
+    box-shadow: 0 10px 30px 5px rgba(0, 0, 0, 0.1);
+  } 
+
+  .intro {
+    grid-column: 1 / 3;
+    padding: 40px;
+  }
+
+  .intro__title {
+    font-size: 23.5px;
+  }
+
+  .intro__accent {
+    margin-bottom: 7px;
+    font-size: 17.5px;
+  }
+
+  .intro__text {
+    font-size: 15.6px;
+    line-height: 1.68;
+  }
+
+  .price {
+    padding: 40px;
+  }
+
+  .why {
+    padding: 40px;
+  }
 }
